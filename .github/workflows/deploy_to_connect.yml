@@ -3,6 +3,8 @@ on:
     branches:
       - main
       - master
+  workflow_dispatch:
+  
 
 name: deploy-to-connect
 
